@@ -6,7 +6,7 @@ const ProjectList: React.FC = () => {
     <div id="projects" className="project-section bg-gray-100 rounded-lg py-4">
       <div className="container mx-auto">
         <div className="text-center mb-2">
-          <h1 className="text-2xl font-light ml-5 mb-0">Projects</h1>
+          <h1 className="text-2xl font-light mb-0">Projects</h1>
         </div>
         {/* Add justify-center to center items when there's only one column */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 max-w-6xl mx-auto justify-center">

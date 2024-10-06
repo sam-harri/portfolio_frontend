@@ -6,7 +6,7 @@ const Skills: React.FC = () => {
     <section id="skills" className="">
       <div className="container mx-auto py-4">
         <div className="text-center">
-          <h1 className="text-2xl font-light ml-5 pb-4">Skills</h1>
+          <h1 className="text-2xl font-light pb-4">Skills</h1>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
           <SkillGroup
