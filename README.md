@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+# Portfolio Website / CV
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website and CV built using **React**, **Tailwind CSS**, and **TypeScript**. The site is designed to showcase your projects, skills, and professional experience in a clean, modern layout.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
 
-## Expanding the ESLint configuration
+## Sections
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Landing**: 
+  - Contains a short biography, a professional headshot, and links to other websites (e.g., LinkedIn, GitHub, etc.).
+  ![Landing Section](docs/landing_desktop.png)
+  
+- **Experience**: 
+  - A vertical timeline that displays your work experience, including job titles, companies, and timeframes.
+  ![Experience Section](docs/experience_desktop.png)
 
-- Configure the top-level `parserOptions` property like this:
+- **Skills**: 
+  - Organized into categorized columns. Uses Devicon to display technical skills with their corresponding logos (e.g., Rust, React, Docker).
+  ![Skills Section](docs/skills_desktop.png)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Projects**: 
+  - Project cards displaying the title, description, and links to relevant websites (e.g., live project, GitHub repository, etc.).
+  ![Projects Section](docs/projects_desktop.png)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Using it for your own website
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** (or **yarn**) installed.
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/sam-harri/CurriculumVitae.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd CurriculumVitae
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+5. Open your browser and go to:
+    ```
+    http://localhost:5173
+    ```
