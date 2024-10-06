@@ -23,6 +23,30 @@ const ProjectList: React.FC = () => {
             ]}
           />
 
+          <ProjectItem
+            title="ProcessDataStreaming"
+            description="Real-Time Chemical Process Data Pipeline"
+            githubUrl="https://github.com/sam-harri/ProcessDataStreaming"
+            listItems={[
+              "Built an end-to-end data pipeline for real-time streaming, processing, and storing chemical process data",
+              "Developed a Rust for data generation, Kafka Raft with Schema Registry for streaming, Spark for anomaly detection, and TimescaleDB for storage",
+              "Orchestrated multi-container services using Docker and Compose, with Prometheus and Grafana for real-time monitoring and visualization"
+            ]}
+          />
+
+
+          <ProjectItem
+            title="GaussianPI"
+            description="ML Based Process Control PI Tuner"
+            githubUrl="https://github.com/sam-harri/GaussianPI"
+            listItems={[
+              "Tuned control loop constants using Gaussian Processes and Bayesian Optimization",
+              "Developed a MATLAB simulation of process to test sampled controller configurations, interfaced via Python's matlabengine",
+              "Applied distributed computing to overcome near real-time simulation constraints."
+            ]}
+          />
+
+
           {/* Uranium Milling Plant Project */}
           <ProjectItem
             title="Uranium Milling Plant - Hatch Ltd"
