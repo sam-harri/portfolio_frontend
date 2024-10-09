@@ -30,13 +30,13 @@ const Experience: React.FC = () => {
 
             {/* Skyworks Experience */}
             <ExperienceCard
-              title="Machine Learning Engineer II, III-V Modelling Group"
+              title="Machine Learning Engineer II, III-V Modeling Group"
               company="Skyworks Solutions Inc."
               location="Ottawa, ON"
               dateRange="July 2024 - Present"
               description={[
                 "Designed predictive Physics-Informed Neural Network models for drain and gate current of GaAs pHEMT devices, and developed PyTorch to Verilog-A transpiler for deployment in Cadence and ADS simulators",
-                "Created CLI to manage data, provision compute, create project templates, and monitor training jobs within the modelling group",
+                "Created CLI to manage data, provision compute, create project templates, and monitor training jobs within the modeling group",
                 "Built an internal RF switch design math package, deployed behind a RESTful API and Next dashboard, and as a standalone pip package. Automated test, build, and deployment workflows using Azure DevOps"
               ]}
               logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/skyworkslogo.png"
@@ -52,8 +52,8 @@ const Experience: React.FC = () => {
               description={[
                 "Developed and deployed various machine learning and deep learning models to tackle state estimation of Li-Ion batteries during drive cycles",
                 "Deployed models with FastAPI and Redis for data buffering using a CI pipeline with automated unit testing and deployment workflows",
-                "Created Electrochemical Impedance Spectroscopy dashboard in React and accompanying REST API to standardize data acquisition for all platforms and allow researchers to users access, plot, compare and share battery cycling results across teams",
-                "Integrated API calls into existing EIS platforms for, transmission of sweep conditions and impedance results into MongoDB"
+                "Created Electrochemical Impedance Spectroscopy dashboard in React and accompanying REST API to standardize data acquisition for all platforms and allow researchers to access, plot, compare and share battery cycling results across teams",
+                "Integrated API calls into existing EIS platforms for transmission of sweep conditions and impedance results into MongoDB"
               ]}
               logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/gbatterieslogo.png"
               websiteUrl="https://www.gbatteries.com/"

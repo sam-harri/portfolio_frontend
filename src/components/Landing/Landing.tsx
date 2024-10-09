@@ -81,10 +81,10 @@ const Landing: React.FC = () => {
               <h3 className="text-lg md:text-xl font-light">Accomplishments</h3>
               <ul className="list-none mt-2 space-y-2">
                 <li className="text-xs md:text-sm">
-                  <i className="fas fa-trophy text-gray-600 hover:text-gray-600"></i> Dean's Honour Roll Every Year
+                  <i className="fas fa-trophy text-gray-600 hover:text-gray-600"></i> Dean's Honour Roll (Every Year)
                 </li>
                 <li className="text-xs md:text-sm">
-                  <i className="fas fa-trophy text-gray-600 hover:text-gray-600"></i> Dean's Merit Scholarship Every Semester
+                  <i className="fas fa-trophy text-gray-600 hover:text-gray-600"></i> Dean's Merit Scholarship (Every Semester)
                 </li>
                 <li className="text-xs md:text-sm">
                   <i className="fas fa-trophy text-gray-600 hover:text-gray-600"></i> Winner of Engineering Capstone Competition
