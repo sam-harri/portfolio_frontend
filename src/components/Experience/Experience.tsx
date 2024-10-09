@@ -23,7 +23,7 @@ const Experience: React.FC = () => {
               company="Neon"
               location="Ottawa, ON"
               dateRange="Present"
-              description={["NDA"]}
+              description={[]}
               logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/neonlogo.png"
               websiteUrl="http://neon.tech/home"
             />

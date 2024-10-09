@@ -13,7 +13,7 @@ const ProjectList: React.FC = () => {
           {/* TensorCraft Project */}
           <ProjectItem
             title="TensorCraft"
-            description="Drag and Drop Neural Network Builder"
+            description="Drag-and-Drop Neural Network Builder"
             websiteUrl="https://tensorcraft.click"
             githubUrl="https://github.com/sam-harri/TensorCraft"
             listItems={[
@@ -29,7 +29,7 @@ const ProjectList: React.FC = () => {
             githubUrl="https://github.com/sam-harri/ProcessDataStreaming"
             listItems={[
               "Built an end-to-end data pipeline for real-time streaming, processing, and storing chemical process data",
-              "Developed a Rust for data generation, Kafka Raft with Schema Registry for streaming, Spark for anomaly detection, and TimescaleDB for storage",
+              "Developed a Rust service for data generation, Kafka Raft with Schema Registry for streaming, Spark for anomaly detection, and TimescaleDB for storage",
               "Orchestrated multi-container services using Docker and Compose, with Prometheus and Grafana for real-time monitoring and visualization"
             ]}
           />
@@ -41,8 +41,8 @@ const ProjectList: React.FC = () => {
             githubUrl="https://github.com/sam-harri/GaussianPI"
             listItems={[
               "Tuned control loop constants using Gaussian Processes and Bayesian Optimization",
-              "Developed a MATLAB simulation of process to test sampled controller configurations, interfaced via Python's matlabengine",
-              "Applied distributed computing to overcome near real-time simulation constraints."
+              "Developed a MATLAB simulation of the process to test sampled controller configurations, interfaced via Python's matlabengine",
+              "Applied distributed computing to overcome near-real-time simulation constraints."
             ]}
           />
 
@@ -70,7 +70,7 @@ const ProjectList: React.FC = () => {
             listItems={[
               "Developed a website using Next.js, Tailwind, and Framer Motion",
               "Implemented enrollment and waitlisting functionalities",
-              "Created automated email systems for registrations",
+              "Created automated email systems for registrations/unregistrations",
             ]}
           />
         </div>
