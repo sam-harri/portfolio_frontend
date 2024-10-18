@@ -10,69 +10,69 @@ const ProjectList: React.FC = () => {
         </div>
         {/* Add justify-center to center items when there's only one column */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 max-w-6xl mx-auto justify-center">
-          {/* TensorCraft Project */}
+          
+          {/* CloudSync Project */}
           <ProjectItem
-            title="TensorCraft"
-            description="Drag-and-Drop Neural Network Builder"
-            websiteUrl="https://tensorcraft.click"
-            githubUrl="https://github.com/sam-harri/TensorCraft"
+            title="CloudSync"
+            description="Cloud-Based File Synchronization Tool"
+            websiteUrl="https://cloudsync.io"
+            githubUrl="https://github.com/johndoe/CloudSync"
             listItems={[
-              "Allows users to easily build neural networks by dragging, connecting, and defining layers in an interactive playground",
-              "Provides real-time feedback on tensor shapes and generates PyTorch code instantly",
-              "Powered by React, ReactFlow, Zustand, and AWS on the backend",
+              "Designed a cloud-based tool to sync files across multiple devices in real time",
+              "Implemented end-to-end encryption for secure data storage and transmission",
+              "Built using Node.js, React, and AWS Lambda for serverless architecture",
             ]}
           />
 
+          {/* RoboFarm Project */}
           <ProjectItem
-            title="ProcessDataStreaming"
-            description="Real-Time Chemical Process Data Pipeline"
-            githubUrl="https://github.com/sam-harri/ProcessDataStreaming"
+            title="RoboFarm"
+            description="Automated Farming and Crop Monitoring System"
+            githubUrl="https://github.com/johndoe/RoboFarm"
             listItems={[
-              "Built an end-to-end data pipeline for real-time streaming, processing, and storing chemical process data",
-              "Developed a Rust service for data generation, Kafka Raft with Schema Registry for streaming, Spark for anomaly detection, and TimescaleDB for storage",
-              "Orchestrated multi-container services using Docker and Compose, with Prometheus and Grafana for real-time monitoring and visualization"
+              "Developed an automated system to monitor soil quality and optimize crop watering",
+              "Integrated IoT devices for real-time data collection and analysis",
+              "Used Python, MQTT protocol, and AWS IoT for connectivity and automation",
             ]}
           />
 
-
+          {/* QuantumSolver Project */}
           <ProjectItem
-            title="GaussianPI"
-            description="ML Based Process Control PI Tuner"
-            githubUrl="https://github.com/sam-harri/GaussianPI"
+            title="QuantumSolver"
+            description="Quantum Computing Simulation Platform"
+            githubUrl="https://github.com/johndoe/QuantumSolver"
             listItems={[
-              "Tuned control loop constants using Gaussian Processes and Bayesian Optimization",
-              "Developed a MATLAB simulation of the process to test sampled controller configurations, interfaced via Python's matlabengine",
-              "Applied distributed computing to overcome near-real-time simulation constraints."
+              "Created a platform to simulate quantum computing algorithms on classical machines",
+              "Implemented Grover's and Shor's algorithms to solve search and factorization problems",
+              "Built using Python's Qiskit library and integrated with IBM Q for quantum simulation",
             ]}
           />
 
-
-          {/* Uranium Milling Plant Project */}
+          {/* SolarEnergyOptimizer Project */}
           <ProjectItem
-            title="Uranium Milling Plant - Hatch Ltd"
-            description="Chemical Engineering Capstone Project"
-            githubUrl="https://github.com/sam-harri/CHG4250-PlantDesign"
-            reportUrl="https://uottawa-my.sharepoint.com/"
+            title="SolarEnergyOptimizer"
+            description="AI-Based Solar Energy Efficiency Optimizer"
+            githubUrl="https://github.com/johndoe/SolarEnergyOptimizer"
             listItems={[
-              "Collaborated with Hatch Ltd. to design a uranium milling process for a pilot plant in Saskatchewan",
-              "Winner of University of Ottawa plant design competition",
-              "Designed a solvent extraction process using deep reinforcement learning",
-              "Performed economic analysis with Monte Carlo simulations",
+              "Developed a machine learning model to optimize the energy output of solar panels",
+              "Used TensorFlow and Keras for model training, with real-time weather data integration",
+              "Deployed the model on AWS EC2 for continuous performance monitoring",
             ]}
           />
 
-          {/* Boxing Club Website Project */}
+          {/* TravelMate Project */}
           <ProjectItem
-            title="University of Ottawa Boxing Club Website"
-            description="Website for the boxing club to manage registrations"
-            websiteUrl="https://sam-harri.github.io/uOBC/"
-            githubUrl="https://github.com/sam-harri/uOBC"
+            title="TravelMate"
+            description="Personalized Travel Itinerary Generator"
+            websiteUrl="https://travelmate.com"
+            githubUrl="https://github.com/johndoe/TravelMate"
             listItems={[
-              "Developed a website using Next.js, Tailwind, and Framer Motion",
-              "Implemented enrollment and waitlisting functionalities",
-              "Created automated email systems for registrations/unregistrations",
+              "Built a web app to generate personalized travel itineraries based on user preferences",
+              "Used Google Maps API and OpenWeather API for location and weather data",
+              "Built with React, Express, and MongoDB for the backend",
             ]}
           />
+
         </div>
       </div>
     </div>

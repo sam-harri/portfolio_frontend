@@ -9,70 +9,70 @@ const Experience: React.FC = () => {
     >
       <div className="container py-4">
         <div className="flex flex-col lg:flex-row first-letter">
-          {/* Experience Header */}
           <div className="w-full lg:w-1/4">
             <h2 className="text-2xl font-light ml-5 pb-4">Experience</h2>
           </div>
 
-          {/* Timeline Content */}
           <div className="w-full lg:w-3/4 relative">
-            {/* Neon Experience (First) */}
             <ExperienceCard
               first
-              title="Software Engineer, Contractor"
-              company="Neon"
-              location="Ottawa, ON"
+              title="Software Engineer"
+              company="Company A"
+              location="Location A"
               dateRange="Present"
-              description={[]}
-              logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/neonlogo.png"
-              websiteUrl="http://neon.tech/home"
+              description={[
+                "Developed models and deployed solutions using modern tech stacks for hardware design simulations.",
+                "Created a CLI tool to automate data processing and project management.",
+                "Built and deployed an internal math package via RESTful API, along with automated workflows using CI/CD pipelines."
+              ]}
+              logoUrl="https://placeholder.com/company-a-logo.png"
+              websiteUrl="http://company-a.com"
             />
 
-            {/* Skyworks Experience */}
+            {/* Company B Experience */}
             <ExperienceCard
-              title="Machine Learning Engineer II, III-V Modeling Group"
-              company="Skyworks Solutions Inc."
-              location="Ottawa, ON"
+              title="Machine Learning Engineer"
+              company="Company B"
+              location="Location B"
               dateRange="July 2024 - Present"
               description={[
-                "Designed predictive Physics-Informed Neural Network models for drain and gate current of GaAs pHEMT devices, and developed PyTorch to Verilog-A transpiler for deployment in Cadence and ADS simulators",
-                "Created CLI to manage data, provision compute, create project templates, and monitor training jobs within the modeling group",
-                "Built an internal RF switch design math package, deployed behind a RESTful API and Next dashboard, and as a standalone pip package. Automated test, build, and deployment workflows using Azure DevOps"
+                "Designed predictive models for various applications, with a focus on neural networks.",
+                "Created tools for automating training jobs and managing resources.",
+                "Implemented APIs for mathematical models, with full DevOps integration."
               ]}
-              logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/skyworkslogo.png"
-              websiteUrl="https://www.skyworksinc.com/"
+              logoUrl="https://placeholder.com/company-b-logo.png"
+              websiteUrl="https://www.company-b.com"
             />
 
-            {/* GBatteries Experience */}
+            {/* Company C Experience */}
             <ExperienceCard
-              title="Algorithm Developer Intern, R&D Division"
-              company="GBatteries"
-              location="Ottawa, ON"
+              title="Algorithm Developer Intern"
+              company="Company C"
+              location="Location C"
               dateRange="August 2023 – January 2024"
               description={[
-                "Developed and deployed various machine learning and deep learning models to tackle state estimation of Li-Ion batteries during drive cycles",
-                "Deployed models with FastAPI and Redis for data buffering using a CI pipeline with automated unit testing and deployment workflows",
-                "Created Electrochemical Impedance Spectroscopy dashboard in React and accompanying REST API to standardize data acquisition for all platforms and allow researchers to access, plot, compare and share battery cycling results across teams",
-                "Integrated API calls into existing EIS platforms for transmission of sweep conditions and impedance results into MongoDB"
+                "Developed machine learning models for battery state estimation.",
+                "Deployed models with FastAPI and Redis, and integrated unit testing in the CI pipeline.",
+                "Created dashboards and APIs to streamline data acquisition and analysis across research teams."
               ]}
-              logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/gbatterieslogo.png"
-              websiteUrl="https://www.gbatteries.com/"
+              logoUrl="https://placeholder.com/company-c-logo.png"
+              websiteUrl="https://www.company-c.com"
             />
 
-            {/* PSPC Experience (Last) */}
+            {/* Company D Experience */}
             <ExperienceCard
               last
-              title="Junior Data Scientist, National Project Oversight Branch"
-              company="Public Services and Procurement Canada"
-              location="Quebec, QC"
+              title="Junior Data Scientist"
+              company="Company D"
+              location="Location D"
               dateRange="April 2022 – September 2022"
               description={[
-                "Developed an automated review system for the National Project Management System to provide early warnings for projects at risk of exceeding time, budget, or scope constraints, reducing quarterly review exercise timeline from over 60 hours to approximately 5 minutes",
-                "Created a comprehensive dashboard to visualize project data, highlighting trends across projects, regions, and project managers",
-                "Worked extensively with large, complex datasets in the project management and financial industry"
+                "Automated review systems to improve project management processes, saving significant time.",
+                "Created dashboards to visualize trends across various project data points.",
+                "Worked with large datasets in project management and financial sectors."
               ]}
-              logoUrl="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/pspclogo.png"
-              websiteUrl="https://www.canada.ca/en/public-services-procurement.html"
+              logoUrl="https://placeholder.com/company-d-logo.png"
+              websiteUrl="https://www.company-d.com"
             />
           </div>
         </div>

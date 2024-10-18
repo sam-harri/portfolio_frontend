@@ -1,5 +1,6 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+import ChatBot from './components/ChatBot/ChatBot'
 import Experience from './components/Experience/Experience'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
@@ -17,6 +18,7 @@ function App() {
     <Skills />
     <ProjectList />
     <Footer />
+    <ChatBot />
     </>
   )
 }

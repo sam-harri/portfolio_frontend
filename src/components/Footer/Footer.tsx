@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         {/* Footer Information */}
         <div className="">
           <p className="text-gray-600">
-            © 2024 Sam. All rights reserved.
+            © 2024 YOUR NAME. All rights reserved.
           </p>
         </div>
       </div>
